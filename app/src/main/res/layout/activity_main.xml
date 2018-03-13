@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/fileSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type file to save:"/>
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="检验是否是真的导入了"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Recover file" />
+
+
+    <!--这里可以使你的日记滚动-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="TextView" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="去试验datapicker" />
+
+
+</LinearLayout>
